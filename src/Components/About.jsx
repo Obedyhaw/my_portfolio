@@ -24,19 +24,16 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a dedicated finance student at the University of Cape Coast and a passionate Microsoft Learn Student Ambassador. With a strong aspiration to become a fintech professional, I have actively pursued opportunities to expand my skillset and knowledge.\n Throughout my academic journey, I have acquired valuable expertise in data analytics with Python programming, as well as proficiency in utilizing the Microsoft Office suite. These technical skills, combined with my solid foundation in finance, equip me with a unique understanding of the intersection between technology and finance.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python programming",
+  "Excel",
+  "SQL",
 ];
 
 /**
@@ -45,7 +42,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am highly motivated to collaborate with and learn from professionals in the field. I believe in the power of teamwork and continuous learning, and I am eager to contribute my skills and enthusiasm to drive innovation and growth in the fintech industry.";
 
 const About = () => {
   return (

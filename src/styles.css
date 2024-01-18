@@ -26,7 +26,22 @@ section {
 }
 
 section.min-height {
+  position: relative;
   min-height: 100vh;
+  padding-top: 22rem;
+  color: white;
+}
+
+section.min-height::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.5;
+  /* z-index: -1; */
 }
 
 section.padding {
@@ -43,6 +58,7 @@ section img.background {
   transform: translate(-50%, 0);
   width: 100vmax;
   z-index: -1;
+  /* display: none; */
 }
 
 h1 {
@@ -123,3 +139,8 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* 
+#imgobed{
+  margin-top: 200px;
+} */
